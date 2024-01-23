@@ -53,7 +53,7 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.link_button("View Resume", "http://tiny.cc/apoorv-resume",  help=None, type="secondary", disabled=False, use_container_width=False)
+    st.link_button("View Resume", "http://tiny.cc/apoorv-resume",  help=None, type="primary", disabled=False, use_container_width=False)
     # st.write(":e-mail:", EMAIL)
 
 
