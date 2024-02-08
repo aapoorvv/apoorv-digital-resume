@@ -61,7 +61,7 @@ with col2:
 st.write('\n')
 cols = st.columns(7)
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
+    cols[index].write(f"[<b>{platform}]({link}</b>)",unsafe_allow_html=True)
 
 
 # # --- EXPERIENCE & QUALIFICATIONS ---
@@ -147,7 +147,7 @@ st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
-    st.write(f"- [{project}]({link})")
+    st.write(f"- [<c>{project}]({link}</c>)",unsafe_allow_html=True)
 st.write("\n")
 
 # ---- CONTACT ----
@@ -155,7 +155,7 @@ with st.container():
     st.subheader("Get In Touch With Me!")
     st.write("---")
 
-    # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+    # Documention: https://formsubmit.co/
     contact_form = """
     <form action="https://formsubmit.co/apoorvg26@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">

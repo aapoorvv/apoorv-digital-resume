@@ -11,8 +11,17 @@ a {
 }
 
 a:hover {
-    color: #d33682 !important;
+    color: #002b36 !important;
     text-decoration: none;
+}
+
+b:hover {
+  color: #d33682 !important;
+  text-decoration: none;
+}
+c:hover {
+  color: #d33682 !important;
+  text-decoration: none;
 }
 
 ul {list-style-type: none;}
